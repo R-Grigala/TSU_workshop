@@ -9,14 +9,6 @@ def linear_congruential_generator(a, c, m, z0):
     z0 = 5 (საწყისი მნიშვნელობა)
     """
     
-    # პარამეტრები
-    print("პარამეტრები:")
-    print(f"a = {a}")
-    print(f"c = {c}")
-    print(f"m = {m}")
-    print(f"z₀ = {z0}")
-    print("\n" + "="*50 + "\n")
-    
     # გენერირება
     sequence = [z0]
     z_current = z0
